@@ -21,13 +21,13 @@
 .navOptions{
     vertical-align: middle;
     line-height: normal;
-    margin-left: 6vw;
+    margin-left: 3vw;
 }
 .galery{
     width: 640px;
     height: 360px;
     background-color: rgb(255, 255, 255);
-    overflow: auto;
+    flex-flow: row nowrap;
 }
 .galery.fotograph{
     width: 500%;
@@ -62,6 +62,7 @@
     background-color: rgb(190, 191, 191);
     display: inline-block;
     border-radius: 1vw;
+    
 }
 .offer,.firstOffer{
     height: 12vh;
